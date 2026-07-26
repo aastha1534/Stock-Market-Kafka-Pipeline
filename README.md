@@ -10,10 +10,6 @@ This project simulates a real-time stock market data feed and streams it through
 
 **Flow:** Stock data (CSV) → Kafka Producer → Kafka Topic (on EC2) → Kafka Consumer → Amazon S3 → AWS Glue Crawler → Glue Data Catalog → Amazon Athena (SQL queries)
 
-## Project in Action
-![Project Running](docs/project_running.jpg)
-*Kafka producer streaming records and consumer writing to S3 in real time.*
-
 ## Tech Stack
 - **Language:** Python
 - **Streaming:** Apache Kafka (Producer-Consumer model)
